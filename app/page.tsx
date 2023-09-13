@@ -2,6 +2,7 @@ import NotesList from '@/app/components/notex-list'
 import TimerCounter from '@/app/components/timer-counter'
 import { Suspense } from 'react'
 import Spinner from '@/app/components/spinner'
+import RefreshBtn from '@/app/components/refresh-button'
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
           <NotesList />
         </Suspense>
         <TimerCounter />
+        <RefreshBtn />
       </div>
     </main>
   )
